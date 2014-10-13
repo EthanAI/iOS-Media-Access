@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Photos/Photos.h"
+#import "AssetsLibrary/AssetsLibrary.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
+@property UIImage* image;
+@property NSString* location;
 
 @end
 
